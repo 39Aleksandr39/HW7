@@ -44,7 +44,7 @@ public class Main {
             System.out.println("Вы можете приготовить: Запретный Эликсир");
             elixir = true;
         }
-        if (elixir == false) {
+        if (!elixir) {     // !elixir == elixir = false
             System.out.println("У вас недостаточно ингредиентов ни на один из эликсиров!");
         }
     }
